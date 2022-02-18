@@ -1,0 +1,14 @@
+integers n1, n2, n3, = 2, 4, 1 
+
+Read n1,n2,n3 ,
+Set numArr = [n1,n2,n3]
+Integer  n = 0
+while (n < 3)
+	If (numArr[n] > numArr[n + 1])
+		Set temp = numArr[n + 1]
+		Set numArr[n + 1] = numArr[n]
+		Set numArr[n] = temp
+		
+	n++
+Write numArr
+

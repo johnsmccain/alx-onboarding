@@ -1,0 +1,9 @@
+INPUT int[n1,n2]
+READ sum: n1 + n2
+
+LET INPUT i = int n3
+WHILE {i >= 0
+      	run_sum: sum += i
+	PRINT run_sum
+   	continue}
+ PRINT sum
