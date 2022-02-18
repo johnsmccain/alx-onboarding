@@ -1,0 +1,8 @@
+Read num1, num2;
+ 
+Set sqr1 to num1^num1
+Set sqr2 to num2^num2
+
+Set sumOfSquares to sqr1 + sqr2
+
+Write sumOfSquares
